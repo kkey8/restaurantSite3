@@ -1,0 +1,30 @@
+/*  Name: Kevin Key
+	Date Created: 1/6/19
+	Last Edit: 1/10/19 */
+
+header, footer {
+	text-align: center;
+}
+
+nav a {
+	padding-right: 15px;
+}
+
+/* Visited links are green, ONLY hovered (not even active) links are bold font,
+and active links are not under lined */
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color: green;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+a:active {
+	text-decoration: none;
+	font-weight: normal;
+}
