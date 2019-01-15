@@ -51,17 +51,18 @@
 			padding-right: 20px;
 		}
 
-		div.row label {
-			text-align: center;
-		}
-
-		div.typeCheckbox, p {
+		div.typeCheckbox, p, div.row label {
 			text-align: center;
 		}
 
 		i.fa {
 			font-size: 2.2em;
 			color: #5b7d70;
+		}
+
+		.form-actions {
+			margin: 0;
+			text-align: center;
 		}
 
 	</style>
@@ -142,7 +143,10 @@
 						</div>
 					</div>
 					<br />
-					<button type="submit" class="btn btn-primary mb-2" name="sendRequest">Send Request</button>
+					<div class="form-actions">
+						<button type="submit" class="btn btn-primary mb-2" name="sendRequest">Send Request</button>
+					</div>
+					
 				</form>
 			</article>
 		</section>
